@@ -1,0 +1,17 @@
+services:
+  - type: pserv
+    name: paradedb
+    env: docker
+    plan: standard
+    autoDeploy: true
+    disk:
+      name: data
+      mountPath: /var/lib/postgresql
+      sizeGB: 10
+    envVars:
+      - key: POSTGRES_USER
+        value: paradedb
+      - key: POSTGRES_PASSWORD
+        generateValue: true
+      - key: POSTGRES_DB
+        value: paradedb
