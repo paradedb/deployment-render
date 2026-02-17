@@ -10,7 +10,7 @@ services:
       sizeGB: 10
     envVars:
       - key: POSTGRES_USER
-        value: paradedb
+        value: postgres
       - key: POSTGRES_PASSWORD
         generateValue: true
       - key: POSTGRES_DB
