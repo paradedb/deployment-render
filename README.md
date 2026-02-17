@@ -66,6 +66,10 @@ psql -U postgres paradedb
 * **Faceted search and boolean queries** for filtering and complex search logic
 * **Zero ETL** — installs as a Postgres extension or replicates from managed databases (RDS, Supabase, Neon, etc.)
 
-500K+ Docker pulls · 100K+ extension installs · 8K+ GitHub stars
+<p align="center">
+  <code>500K+ Docker pulls</code> &bull;
+  <code>100K+ extension installs</code> &bull;
+  <code>8K+ GitHub stars</code>
+</p>
 
 Learn more at [paradedb.com](https://www.paradedb.com/).
