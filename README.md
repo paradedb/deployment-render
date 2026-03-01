@@ -4,7 +4,7 @@
 </h1>
 
 <p align="center">
-  <b>Postgres for Search and Analytics — deployed on <a href="https://render.com">Render</a></b>
+  <b>Postgres for Search and Analytics</b>
 </p>
 
 <h3 align="center">
