@@ -57,13 +57,13 @@ This will:
 
 Once deployed, connect from any other service in your Render private network:
 
-```
+```bash
 psql -h paradedb -U postgres -d paradedb
 ```
 
 To connect from your local machine, add an [SSH key to Render](https://render.com/docs/ssh), connect to the SSH endpoint, then run:
 
-```
+```bash
 psql -U postgres paradedb
 ```
 
@@ -74,7 +74,7 @@ psql -U postgres paradedb
 The default `render.yaml` uses the `standard` plan. To change it, edit the `plan` field in [`render.yaml`](render.yaml):
 
 ```yaml
-plan: standard  # Options: starter, standard, pro, pro plus, pro max, pro ultra
+plan: standard # Options: starter, standard, pro, pro plus, pro max, pro ultra
 ```
 
 ### Disk Size
@@ -90,11 +90,11 @@ disk:
 
 ### Environment Variables
 
-| Variable | Description | Default |
-|---|---|---|
-| `POSTGRES_USER` | Database superuser name | `postgres` |
-| `POSTGRES_PASSWORD` | Database password | Auto-generated |
-| `POSTGRES_DB` | Default database name | `paradedb` |
+| Variable            | Description             | Default        |
+| ------------------- | ----------------------- | -------------- |
+| `POSTGRES_USER`     | Database superuser name | `postgres`     |
+| `POSTGRES_PASSWORD` | Database password       | Auto-generated |
+| `POSTGRES_DB`       | Default database name   | `paradedb`     |
 
 You can add additional Postgres environment variables (e.g. `POSTGRES_INITDB_ARGS`, `PGDATA`) in the `envVars` section of `render.yaml` or through the Render dashboard.
 
