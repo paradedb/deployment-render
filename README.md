@@ -92,9 +92,9 @@ disk:
 
 | Variable            | Description             | Default        |
 | ------------------- | ----------------------- | -------------- |
+| `POSTGRES_DB`       | Default database name   | `paradedb`     |
 | `POSTGRES_USER`     | Database superuser name | `postgres`     |
 | `POSTGRES_PASSWORD` | Database password       | Auto-generated |
-| `POSTGRES_DB`       | Default database name   | `paradedb`     |
 
 You can add additional Postgres environment variables (e.g. `POSTGRES_INITDB_ARGS`, `PGDATA`) in the `envVars` section of `render.yaml` or through the Render dashboard.
 
