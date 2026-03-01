@@ -13,7 +13,6 @@
   <a href="https://join.slack.com/t/paradedbcommunity/shared_invite/zt-32abtyjg4-yoYoi~RPh9MSW8tDbl0BQw">Community</a> &bull;
   <a href="https://paradedb.com/blog/">Blog</a> &bull;
   <a href="https://docs.paradedb.com/changelog/">Changelog</a> &bull;
-  <a href="https://render.com">Render</a>
 </h3>
 
 ---
