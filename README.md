@@ -100,7 +100,7 @@ You can add additional Postgres environment variables (e.g. `POSTGRES_INITDB_ARG
 
 ## What is ParadeDB?
 
-[ParadeDB](https://paradedb.com) is an Elasticsearch alternative built on Postgres. It delivers elastic-quality full-text search, hybrid search, and faceted search — all in pure SQL, with no separate search infrastructure to manage.
+[ParadeDB](https://paradedb.com) is an Elasticsearch alternative built on Postgres. It delivers Elastic-quality full-text, hybrid, and faceted search — all in pure SQL, with no separate search infrastructure to manage.
 
 - **BM25 full-text search** with 12+ tokenizers across 20+ languages
 - **Hybrid search** combining BM25 and vector similarity
