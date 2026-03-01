@@ -22,7 +22,7 @@ This repo deploys [ParadeDB](https://paradedb.com) on [Render](https://render.co
 
 ## What You Get
 
-- The [official ParadeDB Docker image](https://hub.docker.com/r/paradedb/paradedb) with `pg_search` and `pg_analytics` extensions pre-installed
+- The [official ParadeDB Docker image](https://hub.docker.com/r/paradedb/paradedb)
 - A **private service** that isn't exposed to the public Internet — only accessible within your [Render private network](https://render.com/docs/private-services)
 - **10 GB of persistent SSD storage** via [Render Disks](https://render.com/docs/disks), mounted at `/var/lib/postgresql`
 - Auto-generated secure database password
@@ -105,7 +105,7 @@ You can add additional Postgres environment variables (e.g. `POSTGRES_INITDB_ARG
 - **BM25 full-text search** with 12+ tokenizers across 20+ languages
 - **Hybrid search** combining BM25 and vector similarity
 - **Faceted search and boolean queries** for filtering and complex search logic
-- **Zero ETL** — installs as a Postgres extension or replicates from managed databases (RDS, Supabase, Neon, etc.)
+- **Zero ETL** — use as your primary Postgres directly or replicate from managed databases (RDS, Supabase, Neon, etc.)
 
 Learn more at [paradedb.com](https://www.paradedb.com/).
 
